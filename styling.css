@@ -24,7 +24,7 @@ h3 {
   font-family: Space Grotesk, serif;
 }
 
-sub-text {
+.sub-text {
   font-family: Space Grotesk, serif;
   color: black;
 }
@@ -88,41 +88,39 @@ div.content {
 * {
   box-sizing: border-box;
 }
+
 .article {
   width: 95%;
   margin: 15px;
   padding: 12px;
-  background:rgba(245, 245, 245, 0.4);
+  background: rgba(245, 245, 245, 0.4);
   border-radius: 10px;
 }
 
 .content {
   padding: 0 20px;
-  .headline {
-  }
 }
 
-//ClearFix
-.group {
-  &:before,
-  &:after {
-    content: "";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
+/* ClearFix */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
 }
-  a:link {
-/*     color: white;  */
-    text-decoration: none;     /* Remove underline (optional) */
-  }
 
-  a:visited {
-    color: #2E3532; 
-    text-decoration: none;
-  }
+.group:after {
+  clear: both;
+}
 
-  a:hover {
-    color: #C7CEDB; 
-  }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2E3532;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C7CEDB;
+}
