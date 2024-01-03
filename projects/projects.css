@@ -158,12 +158,12 @@ footer ul li {
 
 }
 
-
 .overlay {
     max-height: 0;
     overflow: hidden;
     font-size: 22px;
-    transition: max-height 1.2s ease;
+    transition: max-height 1.4s ease-in-out;
+
 }
 
 .container:hover .overlay {
