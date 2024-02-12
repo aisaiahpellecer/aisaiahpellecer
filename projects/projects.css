@@ -116,17 +116,21 @@ footer ul li {
 }
 
 .python {
-  background-color: #f48fb0;
+  background-color: transparent;
   color: rgb(51, 51, 51);
   border-radius: 6px;
+  border-color: rgba(51, 51, 51, 0.282);
+  border-style: solid;
   font-family: Georgia, sans-serif;
   line-height: 40px;
   padding: 5px 5px;
 }
 
 .development {
-  background-color: #93deae;
+  background-color: transparent;
   color: rgb(51, 51, 51);
+  border-color: rgba(51, 51, 51, 0.282);
+  border-style: solid;
   border-radius: 6px;
   font-family: Georgia, sans-serif;
   line-height: 40px;
@@ -134,15 +138,19 @@ footer ul li {
 }
 
 .data-analysis {
-  background-color: #8fb6f4;
+  background-color: transparent;
   color: rgb(51, 51, 51);
+  border-color: rgba(51, 51, 51, 0.282);
+  border-style: solid;
   border-radius: 6px;
   font-family: Georgia, sans-serif;
   line-height: 40px;
   padding: 5px 5px;
 }
 .illustrator {
-  background-color: #f4ca8f;
+  background-color: transparent;
+  border-color: rgba(51, 51, 51, 0.282);
+  border-style: solid;
   color: rgb(51, 51, 51);
   border-radius: 6px;
   font-family: Georgia, sans-serif;
