@@ -1,95 +1,91 @@
-#my{
-    zoom: 100%;
-    }
+#my {
+  zoom: 100%;
+}
 
 .style-0 {
-    cursor: auto;
-    background: rgb(247, 247, 247);
-
+  cursor: auto;
+  background: rgb(247, 247, 247);
 }
 
 .content {
-    max-width: 65%;
-    color: rgb(51, 51, 51);
-    /* color: rgb (35, 35, 35); */
-    margin: 0px auto;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    font-family: Georgia, sans-serif;
-    box-sizing: border-box;
+  max-width: 65%;
+  color: rgb(51, 51, 51);
+  /* color: rgb (35, 35, 35); */
+  margin: 0px auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  font-family: Georgia, sans-serif;
+  box-sizing: border-box;
 }
 
 h1 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .style-7 {
-    font-size: 16px;
-    line-height: 32.0px;
+  font-size: 16px;
+  line-height: 32px;
 }
 
 a {
-    text-decoration: none;
-    background: #C7E8F3;
-    padding: 3px 2px;
-    margin-left: 3px;
-    margin-right: 2px;
-    color: rgb(51, 51, 51);
+  text-decoration: none;
+  background: #c7e8f3;
+  padding: 3px 2px;
+  margin-left: 3px;
+  margin-right: 2px;
+  color: rgb(51, 51, 51);
 }
 
 .a-alt-1 {
-    background:#ff7ea6;
-
+  background: #ff7ea6;
 }
 
 .a-alt-2 {
-    background: #ffcd4f;
+  background: #ffcd4f;
 }
 
 .a-alt-3 {
-    background: #9eddb0ff;
+  background: #9eddb0ff;
 }
 
 .footer-text {
-    display: inline;
-    text-decoration: none;
-    background: none;
-    margin-right: 10px;
-    font-family: Georgia, sans-serif;
-    font-size: 27px;
+  display: inline;
+  text-decoration: none;
+  background: none;
+  margin-right: 10px;
+  font-family: Georgia, sans-serif;
+  font-size: 27px;
 }
 
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 10px;
-    /* color: rgb(51, 51, 51); */
-    font-family: Georgia, sans-serif;
-    font-size: 30px;
-
+nav ul li,
+footer ul li {
+  display: inline;
+  margin-right: 5px;
+  /* color: rgb(51, 51, 51); */
+  font-family: Georgia, sans-serif;
+  font-size: 30px;
 }
 
 footer ul li {
-    display: inline;
-    margin-right: 10px;
-    color: rgb(81, 81, 81);
-    font-family: Georgia, sans-serif;
-    font-size: 20px;
-
+  display: inline;
+  margin-right: 10px;
+  color: rgb(81, 81, 81);
+  font-family: Georgia, sans-serif;
+  font-size: 20px;
 }
 
 .inline-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
 
-
 .header-text {
-    display: inline;
-    text-decoration: none;
-    background: none;
-    margin-right: 10px;
-    color: rgb(81, 81, 81);
+  display: inline;
+  text-decoration: none;
+  background: none;
+  margin-right: 10px;
+  color: rgb(81, 81, 81);
 
-    font-family: Georgia, sans-serif;
+  font-family: Georgia, sans-serif;
 }
