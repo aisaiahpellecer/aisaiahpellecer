@@ -6,7 +6,7 @@ I am a B.S. Information Sciences + Data Science student at the University of Ill
 
 🛠️ My skills are: Python, SQL, JavaScript, Git, and Docker, with a generous dash of design tools (Adobe Illustrator + XD).
 
-🌱 I’m currently learning about: Data Engineering techniques, 
+🌱 I’m currently learning about: Data Engineering techniques, Research Objects, Computational Reproducibility, and Human-Centered Design (@Design For America UIUC Chapter)
 
 ---
 You can check out more of my work through my repositories (below), [personal website](https://aisaiahpellecer.github.io/aisaiahpellecer/), and [LinkedIn](https://www.linkedin.com/in/apellecer1/).
