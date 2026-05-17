@@ -2,7 +2,7 @@
 
 B.S. Information Sciences + Data Science @University of Illinois Urbana-Champaign. 
 
-Currently reading: Childhood, Youth, Dependency: The Copenhagen Trilogy by Tove Ditlevsen
+Currently reading: Childhood, Youth, Dependency: The Copenhagen Trilogy by Tove Ditlevsen.
 
 ---
 
