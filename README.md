@@ -1,6 +1,6 @@
 ## Hi, I'm Aisaiah!
 
-B.S. Information Sciences + Data Science studentm University of Illinois Urbana-Champaign. 
+B.S. Information Sciences + Data Science @University of Illinois Urbana-Champaign. 
 
 Currently reading: Childhood, Youth, Dependency: The Copenhagen Trilogy by Tove Ditlevsen
 
