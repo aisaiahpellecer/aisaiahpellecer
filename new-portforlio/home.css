@@ -1,0 +1,228 @@
+/* Base */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body.default {
+  cursor: auto;
+}
+
+/* Layout */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.backdrop_background {
+  position: absolute;
+  inset: 0;
+  background-image: url('/./assets/the_point.GIF');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.image_overlay {
+  position: absolute;
+  inset: 0;
+  background-size: 16px 16px;
+  background-image: url("/./assets/checkerboard_64.png");
+}
+
+.backdrop_overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 175, 226, 0.55);
+}
+
+.content_width {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* full width instead of 70% */
+  overflow-y: auto;
+  z-index: 1;
+  scrollbar-width: none;
+}
+
+.content_padded {
+  max-width: 900px;
+  /* or 70% if you prefer */
+  margin: 0 auto;
+  /* centers the column */
+  padding: 40px 60px;
+  box-sizing: border-box;
+}
+
+.padded {
+  padding: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Typography */
+@font-face {
+  font-family: 'Karla';
+  src: url(https://fonts.gstatic.com/s/karla/v33/qkB_XvYC6trAT7RQNNK2EG7SIwPWMNlCVytER0IPh7KX59Z0CnSKYmkvnHE.woff2) format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+.content {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+.heading {
+  font-size: 23px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.heading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.heading-row h1 {
+  margin: 0;
+}
+
+.heading-row .heading {
+  text-decoration: underline;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  padding: 3px 2px;
+  margin-left: 3px;
+  margin-right: 2px;
+  color: #ffffff;
+}
+
+.a-alt-1 {
+  background: #ff7ea6;
+}
+
+.a-alt-2 {
+  background: #ffcd4f;
+}
+
+.a-alt-3 {
+  background: #9eddb0ff;
+}
+
+/* Nav & Footer */
+nav ul li,
+footer ul li {
+  display: inline;
+  margin-right: 5px;
+}
+
+footer ul li {
+  margin-right: 10px;
+  /* color: rgb(200, 200, 200); */
+  font-size: 10px;
+}
+
+.footer-text {
+  display: inline;
+  text-decoration: none;
+  background: none;
+  margin-right: 10px;
+  font-size: 15px;
+  /* color: rgb(200, 200, 200); */
+}
+
+.inline-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-text {
+  display: inline;
+  text-decoration: none;
+  background: none;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+}
+
+
+section img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.grid-container div {
+  text-align: left;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container img {
+  max-width: 323cqi;
+  height: auto;
+
+
+}
+
+.supplement {
+  /* color: rgba(9, 8, 8, 0.731); */
+  font-size: medium;
+}
+
+
+/*
+Source - https://stackoverflow.com/a/31242003
+Posted by Jeroen
+Retrieved 2026-11-12, License - CC BY-SA 3.0
+*/
+
+hr {
+  margin: 0em;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/* hr {
+  border-color: rgba(255, 255, 255, 0.2);
+} */

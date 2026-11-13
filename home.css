@@ -53,13 +53,16 @@ body.default {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 70%;
+  right: 0;            /* full width instead of 70% */
   overflow-y: auto;
   z-index: 1;
+scrollbar-width: none;
 }
-
 .content_padded {
+  max-width: 900px;    /* or 70% if you prefer */
+  margin: 0 auto;      /* centers the column */
   padding: 40px 60px;
+  box-sizing: border-box;
 }
 
 .padded {
@@ -143,6 +146,10 @@ footer ul li {
   margin-right: 10px;
   color: rgb(255, 255, 255);
 }
+
+
+
+
 
 /* hr {
   border-color: rgba(255, 255, 255, 0.2);
