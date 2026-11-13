@@ -62,7 +62,7 @@ body.default {
 }
 
 .content_padded {
-  max-width: 900px;
+  max-width: 50%;
   /* or 70% if you prefer */
   margin: 0 auto;
   /* centers the column */
